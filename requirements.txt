@@ -1,0 +1,13 @@
+fastapi 
+uvicorn[standard] 
+httpx 
+sqlalchemy 
+sqlalchemy-utils 
+pydantic 
+pydantic-settings
+email-validator 
+python-dotenv 
+SQLModel 
+pytest 
+alembic 
+pytest-asyncio
