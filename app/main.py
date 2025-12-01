@@ -3,6 +3,7 @@ from app.api.v1.conversions import router as conv_router
 from app.db.crud import init_db
 from app.core.logger import logger
 
+
 app = FastAPI(title="Currency & Unit Conversion API", version="1.0.0")
 app.include_router(conv_router)
 
